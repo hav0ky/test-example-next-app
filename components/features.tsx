@@ -164,7 +164,7 @@ export function FeaturesSectionDemo() {
         <div>
             <div className="py-4 md:py-12 max-w-7xl relative z-10 w-full">
                 <h1 className="text-3xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 pt-20">
-                    Ahura<span className="text-blue-400">Sense</span> is the foundation for your global infrastructure, applications and business
+                    Test<span className="text-blue-400">Site</span> is the foundation for your global infrastructure, applications and business
                 </h1>
                 <p className="mt-4 font-normal text-base text-neutral-300">
                     Protect your website, application, and server against complex DDoS attacks.
