@@ -13,7 +13,7 @@ const SubMenus = ({ index }: { index: number }) => {
                 <ListItem
                     key={item.href}
                     title={item.label}
-                    href={`/contact`}
+                    href={item.href}
                 >
                     {item.description}
                 </ListItem>

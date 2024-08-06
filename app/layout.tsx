@@ -6,15 +6,16 @@ import MaxWidth from "@/components/max-width";
 import SiteFooter from "@/components/footer";
 
 const nunito = Nunito({
-  weight: ['300', '400', '600', '700'],
-  subsets: ['latin'],
-  display: 'swap',
-  fallback: ['sans-serif'],
-})
+  weight: ["300", "400", "600", "700"],
+  subsets: ["latin"],
+  display: "swap",
+  fallback: ["sans-serif"],
+});
 
 export const metadata: Metadata = {
   title: "TestSite",
-  description: "Empowering Your Digital Future with Comprehensive IT Solutions",
+  description:
+    "Empowering Your Digital Future with Comprehensive IT Solutions",
 };
 
 export default function RootLayout({
@@ -23,10 +24,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning className="dark">
+    <html
+      lang="en"
+      suppressHydrationWarning
+      className="dark"
+    >
       <body className={nunito.className}>
         <SiteHeader />
-        <div className="">
+        <div className="flex justify-center">
           {children}
         </div>
         <SiteFooter />

@@ -21,7 +21,7 @@ export const nav_items: Menu[] = [
         icon: IconLayout,
         submenus: [
             {
-                href: "server-management.jpg",
+                href: "server-management",
                 label: "Server Management",
                 description: "Ensuring optimal performance and uptime of all company servers through regular maintenance, updates, and system health checks. Proactive monitoring and troubleshooting to mitigate potential server issues and prevent downtime."
             },
