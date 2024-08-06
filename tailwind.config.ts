@@ -1,3 +1,4 @@
+import { url } from "inspector"
 import type { Config } from "tailwindcss"
 
 const config = {
@@ -18,6 +19,7 @@ const config = {
       },
     },
     extend: {
+     
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -90,6 +92,9 @@ const config = {
         "scroll":
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
+      backgroundImage: {
+        'server':"url('/img/serverMangmentBG.jpg')"
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],
