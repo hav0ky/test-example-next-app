@@ -8,7 +8,7 @@ import { IconArrowRight,IconCheck } from "@tabler/icons-react";
 
 
 export default function KeyFeature() {
-    return <div className="flex items-center justify-around mb-16 px-10 py-20 border-gray-600 border-2  rounded-lg">
+    return <div className="flex items-center justify-around mb-20 px-10 py-20 border-gray-600 border-2  rounded-lg">
 
         <div className="">
             <div>
