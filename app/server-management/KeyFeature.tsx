@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 import { IconArrowRight,IconCheck } from "@tabler/icons-react";
 
 
-export default function KeyFeatures() {
+export default function KeyFeature() {
     return <div className="flex items-center justify-around mb-16 p-10">
 
         <div className="">
